@@ -1,6 +1,6 @@
 package com.company.day8;
 
-public class ForDouble
+public class Star1
 {
     public static void main(String[] args)
     {
@@ -8,7 +8,7 @@ public class ForDouble
         {
             for(int j=1; j<=4; j++)
             {
-                System.out.print(i+" ");
+                System.out.print("* ");
             }
             System.out.println();
 
