@@ -10,7 +10,7 @@ public class CalculatorSwitch
         Scanner sc= new Scanner(System.in);
         int a= sc.nextInt();
         int b= sc.nextInt();
-        System.out.println("Enter 1 for addition,2 for subtraction, 3 for multiplication, 4 for devision");
+        System.out.println("Enter 1 for addition,2 for subtraction, 3 for multiplication, 4 for devision or else do nothing");
         int op= sc.nextInt();
         switch (op)
         {
