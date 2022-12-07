@@ -25,6 +25,8 @@ public class StringEx
         System.out.println(str1.substring(str1.length() - 1)+str1+str1.substring(str1.length() - 1));
         System.out.println(str1.charAt(0)+""+str1.charAt(1));
         System.out.println(str1.replace("vel",""));
+        System.out.println((str1.replace("e","")).length());
+        str2.charAt(0);
 
 
     }

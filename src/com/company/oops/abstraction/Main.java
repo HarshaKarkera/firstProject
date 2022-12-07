@@ -9,6 +9,8 @@ public class Main
 
         Parent daughter=new Daughter();
         daughter.career();
+
+
     }
 
 }

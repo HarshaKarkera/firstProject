@@ -2,15 +2,19 @@ package com.company.Day4;
 
 public class test
 {
+   static  int i;
     public static void main(String[] args)
     {
-        String str="namdam";
-
-        System.out.println(  (str.substring(str.length()-1,str.length())).concat(str.substring(1,str.length()-1)).concat(str.substring(0,1)));
-        System.out.println("this is robin featuregit git");
-
-
-
+      //  System.out.println(i);
+      //  i=20;
+       // System.out.println(i);
+        test a= new test();
+        a.i=30;
+        System.out.println(a.i);
+        test b= new test();
+        b.i=50;
+        System.out.println(b.i);
+        int i1 = (i > 10) ? 50 : 100;
 
 
     }
